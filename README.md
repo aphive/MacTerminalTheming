@@ -65,7 +65,7 @@ vi ~/.bash_profile
 
 You can use any or all of the following:
 
-```
+```bash
 # Set default blocksize for ls, df, du
 export BLOCKSIZE=1k
 
