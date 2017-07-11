@@ -35,14 +35,14 @@ While your terminal is still open:
 
 * Create `.vim`:
 
-```
+```bash
 mkdir ~/.vim
 ```
 
 * cd into the `MacTerminalTheming` directory (where ever it's currently located)
 * Run `ls -a` and you should see the following items:
 
-```
+```bash
 ./  ../ .git/   Darkside.terminal*  README.md   colors/
 ```
 
@@ -59,7 +59,7 @@ colorscheme moody
 ## Things to add to your Bash Profile
 In `Terminal` edit your `.bash_profile` file
 
-```
+```bash
 vi ~/.bash_profile
 ```
 
@@ -117,7 +117,7 @@ The last line changes your default prompt from `computername:~ username$` to `us
 
 If you use brew here is a nice little entry for your `.bash_profile`
 
-```
+```bash
 # Brew Stuffs
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 ```
@@ -126,8 +126,8 @@ I also setup my `/etc/motd` (Message of the Day) to show my my aliases at login 
 
 * edit `/etc/motd`
 
-```
-vi vi /etc/motd
+```bash
+sudo vi /etc/motd
 ```
 
 Here you can add anything you want for a message, you can even leave a warning in case someone starts up Terminal. For what I use it, just paste in the following:
