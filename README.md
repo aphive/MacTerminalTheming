@@ -7,17 +7,18 @@ Thanks to
 * [jakwings](https://github.com/jakwings) for the vim theme.
 
 ## What's included
-* .bash_profile     - things to use from the command line and to make bash look pretty.
-* colors/moody.vim		    - theme for vim, called from .vimrc
+* colors/moody.vim  - theme for vim, called from .vimrc
 * darkside.terminal - A nice theme for terminal
 
 ## How to configure things
-First you will need to either clone or download this repo to your computer. If you download it, you will need to unzip the files.
+First you will need to do is either clone or download this repo to your computer. If you download it, you will need to unzip the files.
 
 Once you have the files do the following:
 
 ### Setup your Terminal Profile
-You can do this two ways, the easy way is to just double click `darkside.terminal` and your terminal will load with the theme already active, you just need to make sure it's set as the default. Then go to the `General` tab and set `Darkside` as the profile to load on startup.
+You can do this two ways:
+
+The easy way is to just double click `darkside.terminal` and your terminal will load with the theme already active, you just need to make sure it's set as the default. Then go to the `General` tab and set `Darkside` as the profile to load on startup.
 
 The other way you can do it is to:
 * Open Terminal
